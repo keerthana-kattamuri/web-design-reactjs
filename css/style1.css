@@ -1,0 +1,96 @@
+.resume {
+  text-align: center;
+  font-family: cursive;
+  margin: 0px;
+  padding: 4px;
+}
+body {
+  background: #80808036;
+  margin: 0px;
+}
+img {
+  width: 150px;
+  height: auto;
+  margin: 4px;
+  padding: 20px;
+  padding-bottom: 5px;
+}
+.left {
+  margin: 3px;
+  width: 30%;
+  background: #000000a1;
+  color: white;
+  padding: 15px;
+}
+.details h4 {
+  margin: 3px;
+}
+.details {
+  margin: 3px;
+  text-align: center;
+}
+.tech,
+.hobby,
+.edu,
+.obj,
+.project,
+.dec {
+  margin: 3px;
+}
+.tech h2,
+.hobby h2 {
+  text-align: center;
+}
+.edu,
+.obj,
+.project,
+.dec {
+  background: white;
+  padding: 5px 20px 10px 20px;
+}
+.left h2 {
+  color: #1ed2db;
+}
+ul,
+ol {
+  margin-left: 25px;
+}
+li {
+  padding: 3px;
+}
+.right {
+  width: 70%;
+}
+.edu table {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5px;
+  border-collapse: collapse;
+}
+.all {
+  display: flex;
+  margin: 5px;
+}
+.submit {
+  text-align: center;
+}
+.right h2 {
+  color: #3f92ba;
+}
+button {
+  padding: 8px;
+  color: white;
+  background: #000000a6;
+  border: none;
+  border-radius: 5px;
+}
+@media screen and (max-width: 767px) {
+  .all {
+    flex-direction: column;
+  }
+  .left,
+  .right {
+    width: 100%;
+    padding: 0;
+  }
+}

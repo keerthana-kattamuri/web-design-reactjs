@@ -1,0 +1,41 @@
+.para{
+    background-color: #dddddd;
+    color:green;
+}
+.first,.second,.third,.fourth{
+    border:3px black solid;
+    width:400px;
+    text-align: center;
+    margin:2px;
+}
+img{
+    width:300px;
+    height:300px;
+    padding:10px;
+}
+.parent{
+    display:flex;
+    flex-direction: row-reverse;
+}
+@media screen and (max-width:425px){
+    .parent{
+        flex-direction: column;
+    }
+    .first{
+        background-color: #c45e45;
+    }
+}
+@media screen and (min-width:426px) and(max-width:768px){
+    .parent{
+        flex-direction:row-reverse;
+        justify-content: space-between;
+    }
+    .first,.second,.third,.fourth{
+        background-color: #ddd;
+        border-radius: 20px;
+        width:300px;
+    }
+}
+p{
+    margin:10px;
+}
