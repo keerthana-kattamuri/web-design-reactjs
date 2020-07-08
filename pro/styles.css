@@ -1,0 +1,17 @@
+.tabs {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.tab1,
+.tab2 {
+  width: 300px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.tab1 img,
+.tab2 img {
+  width: 200px;
+  height: 200px;
+}

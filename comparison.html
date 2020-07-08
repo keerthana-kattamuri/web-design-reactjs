@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>  
+<head>  
+    <title>Jquery - Difference between == and ===</title>  
+    
+</head>  
+  
+<body>  
+    <h2>JQuery or JavaScript - Difference between == and ===</h2>  
+    <hr/>  
+    <br/>  
+    <div id="div1">  
+        <input type="button" id="Check" onclick="CheckDifference()" value="Click to Check Difference" />  
+    </div>  
+    <script type="text/javascript">  
+        function CheckDifference()  
+         {  
+            var val = "2";  
+            document.write("Value for a variable is : " + val + "<br/>");  
+  
+            if (val == 2)  
+                document.write("== returns True <br/>")  
+            else  
+                document.write("== returns False <br/>")  
+  
+            if (val === 2)  
+                document.write("=== returns True <br/>")  
+            else  
+                document.write("=== returns False <br/>")  
+        }  
+    </script>  
+</body>  
+  
+</html> 
