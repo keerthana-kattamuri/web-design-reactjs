@@ -55,7 +55,7 @@ function basic(det){
 	child1.appendChild(name);
 
 	var email = document.createElement("a");
-	email.href="mailto:suryanarla54121@gmail.com",
+	email.href="mailto:keerthana.kattamuri@gmail.com",
 	email.textContent=det.email;
 	child1.appendChild(email);
 
